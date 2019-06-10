@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html layout:decorator="shared/homelayout"
+	xmlns:th="http://www.thymeleaf.org">
+	
+	
+<body>
+	<th:block layout:fragment="header">
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="O. Kalu">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-EmRcsPP774S9MOi4ywB+JXUWjYnBdyInMzG2XsC5siZEUpexqxOMJW358dCYEjPu" crossorigin="anonymous">
+   
+	
+		<link rel="stylesheet" type="text/css" th:href="@{/css/home.css}" />
+		
+		 
+	</th:block>
+	
+	<th:block layout:fragment="content">
+
+		<h2>                                Welcome to home page!</h2>
+	</th:block>
+	
+	<th:block layout:fragment="footer">
+	</th:block>
+	
+</body>
+</html>
+
